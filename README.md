@@ -44,5 +44,6 @@ Lantai 2:
 Terbuka untuk kontribusi!
 Jika kamu tertarik mengembangkan lebih lanjut, menulis narasi tambahan, atau menambahkan sistem baru (seperti equipment atau alur quest).
 
+Here if you wanna try : https://alkarizqyrpb.github.io/Cultivation_Game/
 🌟 Tujuan Utama
 Naik ke lantai 100 dan ungkap misteri yang tersembunyi di puncak menara... atau temukan sesuatu yang jauh lebih besar.
