@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cultivation Tower</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar Progression -->
+      <aside class="sidebar">
+        <h2>Progression</h2>
+        <ul class="floor-list">
+          <li class="floor active">Floor 1</li>
+          <li class="floor">Floor 2</li>
+          <li class="floor">Floor 3</li>
+          <li class="floor">Floor 4</li>
+          <li class="floor">Floor 5</li>
+          <li class="floor">Ongoing...</li>
+        </ul>
+      </aside>
+
+      <!-- Main Cultivation Panel -->
+      <main class="main-panel">
+        <h1>Cultivation Panel</h1>
+
+        <div class="qi-section">
+          <label>Qi Progress</label>
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+
+          <!-- Dialog Prolog Realm -->
+          <div id="dialog-panel">
+            <h3>Prolog Realm</h3>
+            <p id="dialog-text">
+              Mulailah perjalananmu sebagai kultivator muda...
+            </p>
+          </div>
+
+          <div class="cultivate-container">
+            <button id="cultivate-btn" class="btn">Cultivate</button>
+            <button id="breakthrough-btn" class="btn">Breakthrough</button>
+            <button id="reset-btn" class="btn">Reincarnation</button>
+          </div>
+        </div>
+
+        <div class="stats">
+          <h3>Stats</h3>
+          <p>REALM: <span id="realm">0</span></p>
+          <p>STR: <span id="stat-str">0</span></p>
+          <p>AGI: <span id="stat-agi">0</span></p>
+          <p>DEF: <span id="stat-def">0</span></p>
+          <p>LUCK: <span id="stat-luck">0</span></p>
+          <p>CHARM: <span id="stat-charm">0</span></p>
+          <button id="get-stat-btn" class="btn">Get Stat</button>
+        </div>
+      </main>
+
+      <!-- Event/Challenge Panel -->
+      <section class="event-panel">
+        <h2>Current Floor</h2>
+
+        <!-- Dialog Prolog Floor -->
+        <div id="floor-dialog-panel">
+          <h3>Prolog Floor</h3>
+          <p id="floor-dialog-text">
+            Setiap lantai menyimpan tantangan dan rahasia baru...
+          </p>
+        </div>
+        <br />
+        <hr />
+        <br />
+        <p class="event-text">
+          Anda berdiri di pintu masuk Lantai 1. Sebuah ruangan yang
+          remang-remang membisikkan janji-janji kekuasaan.
+        </p>
+        <br />
+        <hr />
+        <br />
+        <button class="btn check-btn">Next Floor</button>
+        <p id="rewardJdl">Reward Chest</p>
+        <div class="reward">
+          <div class="chest"></div>
+          <button id="open-reward-btn" class="btn">Open Reward</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
